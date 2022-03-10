@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+form {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: fit-content(150px);
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: 1px solid black;
+}
+
+.weather {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: fit-content(200px);
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: 1px solid black;
+}
+
+.weather-icon {
+  background-color: grey;
+}
